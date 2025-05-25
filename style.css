@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+  /*
+    Roxo da logo
+    #5d16ec
+    rgba(93,22,236,255)
+
+    Roxo claro
+    #914cfc
+    rgb(145,76,252)
+  */
+
+    header#cabecalho {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    h1 {
+      color: #5d16ec;
+      font-size: 2.4em;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .intro {
+      text-align: center;
+      font-size: 1.3em;
+    }
+
+    h2 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #5d16ec;
+      font-size: 1.5em;
+      background-image: linear-gradient(to right, #9b70f1, transparent);
+    }
+
+    h3 {
+      color: #210658;
+      font-size: 1.3;
+    }
+
+    .intro>p {
+      padding-left: 15px;
+      padding-right: 15px;
+      line-height: 1.5em;
+      text-indent: 10px;
+      text-align: justify;
+    }
+
+    .blocos {
+      background-color: #9b70f1;  
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .bloco {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      width: 450px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .bloco>p {
+      font-size: 1.2em;
+      text-indent: 10px;
+      text-align: justify;
+    }
+
+    .bloco h3 {
+      font-size: 1.3em;
+      text-align: center;  
+      margin-top: 0;
+      color: #5d16ec;
+    }
+
+    footer {
+    background-color: white;
+    text-align: center;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 900;
+    }
+
+    a {
+        color: #5d16ec;
+        text-decoration: none;
+    }
