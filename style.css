@@ -98,7 +98,6 @@
     font-weight: 900;
     }
 
-    a {
-        color: #5d16ec;
-        text-decoration: none;
+    footer>p {
+        font-weight:unset;
     }
